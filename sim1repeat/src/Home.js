@@ -15,18 +15,20 @@ class Home extends Component {
     render() {
       return (
         <div>
+{/* core:54F */}
           <header id='homePage'>
+{/* core:54E, 54J  */}
             <img src={logo} alt='this is a logo'/>
             <p>SHELFIE
               </p>
               <p>Look at this thing for styilng competency purposes!</p>
           </header>
-
+{/* core:54G */}
           <div><input placeholder='FOCUS ON ME!'/>
           </div>
 
           <section className="shelfBar">
-          
+{/* core: 54H */}
           <Link to='/A'><div>
             Shelf A
           </div></Link>
